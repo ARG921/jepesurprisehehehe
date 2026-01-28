@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Jepe!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="confetti-container" id="confettiContainer"></div>
+
+    <button class="music-btn" id="musicBtn" title="Toggle Music">🔇</button>
+
+    <div class="intro-screen" id="introScreen">
+        <div class="ppg-characters">
+            <div class="character blossom">
+                <img src="https://media.giphy.com/media/OAglYDNHPx5qo/giphy.gif" alt="Blossom" class="character-gif">
+                <span class="character-sparkle"></span>
+            </div>
+            <div class="character bubbles">
+                <img src="https://media.giphy.com/media/10S42gVFmZJ4eA/giphy.gif" alt="Bubbles" class="character-gif">
+                <span class="character-sparkle"></span>
+            </div>
+            <div class="character buttercup">
+                <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXNsa3p6ZWtvNHFjdWYyOXNweWJjeWhoYm5hN3RiZjU2OWpocXVobCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5BuYzSHaxflSQyFmpA/giphy.gif" alt="Buttercup" class="character-gif">
+                <span class="character-sparkle"></span>
+            </div>
+        </div>
+        
+        <div class="main-gif-container">
+            <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3YTJqdTMwdGF6cXY2MDEydnZlODNndnN5dHlqN3QzOG95a3JyOG45OSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/03yD0ByU2aymMuUhSU/giphy.gif" alt="Powerpuff Girls" class="main-gif">
+        </div>
+        
+        <div class="intro-text">
+            <h1>Hi Jepe</h1>
+        </div>
+        
+        <button class="continue-btn" id="continueBtn">
+            Click Me
+        </button>
+    </div>
+
+    <div class="envelope-screen" id="envelopeScreen">
+        <div class="bg-confetti-container" id="bgConfetti"></div>
+        
+        <div class="envelope-container" id="envelopeContainer">
+            <div class="envelope" id="envelope">
+                <div class="envelope-body"></div>
+                <div class="envelope-flap"></div>
+            </div>
+        </div>
+        
+        <p class="envelope-hint">Tap the letter to open it</p>
+    </div>
+
+    <div class="letter-screen" id="letterScreen">
+        <div class="letter-card">
+            <button class="close-letter-btn" id="closeLetterBtn" title="Close Letter">✕</button>
+            <div class="letter-header">
+                <p class="date">Letter From Aceng</p>
+            </div>
+
+            <div class="letter-content">
+                <p class="greeting">Happy Birthday, Jepe! 🎉</p>
+                
+                <p>
+                    Nggak kerasa ya kawan udah nambah umur lagi. Semoga mental tidak terganggu dengan 
+                    <span class="highlight">quarter life crisis</span>. Jangan biarkan semua pikiran buruk itu 
+                    menghalangi langkah lu untuk terus maju dan berkembang ya der!
+                </p>
+                
+                <p>
+                    <span class="ppg-ref">Terima kasih</span> untuk sudah ada dan jadi teman yang asik selama ini
+                    <span class="highlight">dari SMA hingga sekarang</span>.
+                    Terima kasih lagi karena udah mau dengerin cerita - cerita gw yang kadang nggak penting itu.
+                    Sorry kadang bikin lu bete atau kesel 😣. <br> 本当にごめんなさい 🙇🙇🙇
+
+                </p>
+                
+                <p>
+                    Banyak hal yang udah lu lalui selama ini, dan gw yakin lu pasti bisa lewatin semuanya dengan baik. 
+                    Lu orang yang <span class="highlight">kuat dan tangguh</span>, jangan pernah ragu sama kemampuan lu sendiri.
+                    Lu udah berjuang keras sampai sekarang, dan itu sesuatu yang patut dibanggain.
+                    <span class="highlight">Rayakan semua pencapaian lu, sekecil apapun itu!</span>
+
+                </p>
+                
+                <p>
+                    Semoga lu suka kadonya yak wkwkwkwk, ini lu banget belakangan ini. Semoga dengan ini lu makin semangat baking.
+                    Semoga <span class="ppg-ref">Pastries Basement</span> sukses besar dan bisa jadi tempat healing lu juga di kala stress dengan kerja kantoran.
+                    Ditunggu versi cheese nya ya sama baileys / spicy edition nya 🤪🤪🤪.
+                </p>
+                
+                <p>
+                    God Bless You JEPEEEEEE. <br><span class="ppg-ref">Saving our friendship for a lifetime!</span>
+                </p>
+            </div>
+
+            <div class="wishes-section">
+                <h3>Wishes for You</h3>
+                <div class="wishes-list">
+                    <span class="wish-tag">✨ Happiness</span>
+                    <span class="wish-tag">💪 Strength</span>
+                    <span class="wish-tag">🌈 Success</span>
+                    <span class="wish-tag">😊 Joy</span>
+                    <span class="wish-tag">🍀 Good Luck</span>
+                </div>
+            </div>
+
+            <div class="letter-footer">
+                <p class="signature">With warm wishes,</p>
+                <p class="from">Your favorite IT Support</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
